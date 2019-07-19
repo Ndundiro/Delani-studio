@@ -15,7 +15,6 @@
     margin-top: 10%;
 }
 .aboutus{
-    text-align: center;
     height: 300px;
     padding-top: 40px;
 }
@@ -35,6 +34,7 @@
 .what-we-do{
 height: 320px;
 }
+
 .contactus{
     height: 380px;
     background-image: url("../Delani-studio/assets/backgrounds/c_image.jpg");
@@ -48,5 +48,10 @@ height: 320px;
 .footer{
     padding: 40px;
 }
+/* for jquery functions */
+#hide1,#hide2,#hide3{
+    display: none;
+}
+
 
 
