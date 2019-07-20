@@ -2,6 +2,7 @@
     background-image: url("../Delani-studio/assets/backgrounds/h_img.jpg");
     height:620px;
     background-size: cover;
+    /* background-position: center; */
     background-repeat: no-repeat;
 }
 .logo{
@@ -52,6 +53,19 @@ height: 320px;
 #hide1,#hide2,#hide3{
     display: none;
 }
+overlay{
+    display: none;
+}
+input[type=text]{
+    background: transparent;
+}
+input[type=email]{
+    background: transparent;
+}
+textarea[type=text]{
+    background: transparent;
+}
+
 
 
 
