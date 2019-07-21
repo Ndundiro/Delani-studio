@@ -25,12 +25,7 @@ $(document).ready(function(){
 // }, function(){
 //     $("#hover1").slideToggle('slow');
 // });
-// $(document).ready(function() {
-//     $('.port').mouseover(function() {
-//       $('.hover1').show();
-//     }).mouseout(function() {
-//       $('.hover1').hide();
-//     });
+
     
     // The feedback input form
     
