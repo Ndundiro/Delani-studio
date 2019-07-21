@@ -20,11 +20,17 @@ $(document).ready(function(){
 // toggle for the portfolio part.
 
 
-$("#port").hover(function(){
-    $("#hover1").slideToggle('slow');
-}, function(){
-    $("#hover1").slideToggle('slow');
-});
+// $("#port").hover(function(){
+//     $("#hover1").slideToggle('slow');
+// }, function(){
+//     $("#hover1").slideToggle('slow');
+// });
+// $(document).ready(function() {
+//     $('.port').mouseover(function() {
+//       $('.hover1').show();
+//     }).mouseout(function() {
+//       $('.hover1').hide();
+//     });
     
     // The feedback input form
     
