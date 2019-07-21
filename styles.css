@@ -63,6 +63,9 @@ input[type=email]{
 textarea[type=text]{
     background: transparent;
 }
+#hover1{
+    display: none;
+}
 
 
 
