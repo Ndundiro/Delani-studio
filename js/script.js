@@ -1,5 +1,6 @@
 // what we do section
 $(document).ready(function(){
+    // event.preventDefault();
 
     $(".design,#hide1").click(function(){
         $(".design").toggle();
@@ -16,13 +17,17 @@ $(document).ready(function(){
 });
     
     // The feedback input form
-//     $(document).ready(function(){
+    
+    $(document).ready(function(){
+    $("#messageus").submit(function() {
              
-//     var name = $("input#yourname").val();
-//     var email = $("input#email").val();
-//     var feedback = $("input#feedback").val();
+    var name = $("input#yourname").val();
+    var email = $("input#email").val();
+    var feedback = $("input#feedback").val();
 
-//     alert(name + " we have received your feedback.Thank you for reaching out to us.");
-// });
+    alert(name + " we have received your feedback.Thank you for reaching out to us.");
+    event.preventDefault();
+});
+});
 
 

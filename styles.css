@@ -26,9 +26,9 @@
     padding-top: 90px;
      text-align: center;    
 }
-.portfolio{
+/* .portfolio{
     text-align: center;
-}
+} */
 .two{
     margin-top: 30px
 }
@@ -53,9 +53,7 @@ height: 320px;
 #hide1,#hide2,#hide3{
     display: none;
 }
-overlay{
-    display: none;
-}
+
 input[type=text]{
     background: transparent;
 }
