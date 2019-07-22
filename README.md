@@ -1,5 +1,5 @@
 # Delani-studio
-This application aims to assign a person a Akan name that is related to the day of the week they were born. 12 July 2019 By Ndundiro Kamau
+This is a landing page for Delani studio.It shows what Delani studio is all about. 19th July 2019. By Ndundiro Kamau
 
 ## Description
 This is a web app for delani studio.It showcases what Delani studio is all about ie products offered their portfolio and products.
@@ -17,7 +17,7 @@ This is a web app for delani studio.It showcases what Delani studio is all about
 * Link to live website
 
 ## Known Bugs
-The portfolio section does not show an ovelay on hover as expected.
+There is no database for collecting the feedback on the form section.The email chimp dosent work.
 ## Technologies Used
 * HTML5
 * CSS
