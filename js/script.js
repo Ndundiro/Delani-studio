@@ -1,45 +1,77 @@
 // what we do section
-$(document).ready(function(){
-    // event.preventDefault();
 
-    $(".design,#hide1").click(function(){
+$(document).ready(function () {
+    $(".design,#hide1").click(function () {
         $(".design").toggle();
         $("#hide1").toggle();
     });
-    $(".development,#hide2").click(function(){
+    $(".development,#hide2").click(function () {
         $(".development").toggle();
         $("#hide2").toggle();
     });
-    $(".product,#hide3").click(function(){
+    $(".product,#hide3").click(function () {
         $(".product").toggle();
         $("#hide3").toggle();
     });
 });
 
-
 // toggle for the portfolio part.
 
-
-// $("#port").hover(function(){
-//     $("#hover1").slideToggle('slow');
-// }, function(){
-//     $("#hover1").slideToggle('slow');
-// });
-
-    
-    // The feedback input form
-    
-    $(document).ready(function(){
-    $("#messageus").submit(function() {
-             
-    var name = $("input#yourname").val();
-    var email = $("input#email").val();
-    var feedback = $("input#feedback").val();
-
-    alert(name + " we have received your feedback.Thank you for reaching out to us.");
-    event.preventDefault();
+$(document).ready(function () {
+    $(".image1").hover(function () {
+        $(".overlay1, this").slideToggle('slow');
+    }, function () {
+        $(".overlay1, this").slideToggle('slow');
+    });
+    $(".image2").hover(function () {
+        $(".overlay2, this").slideToggle('slow');
+    }, function () {
+        $(".overlay2, this").slideToggle('slow');
+    });
+    $(".image3").hover(function () {
+        $(".overlay3, this").slideToggle('slow');
+    }, function () {
+        $(".overlay3, this").slideToggle('slow');
+    });
+    $(".image4").hover(function () {
+        $(".overlay4, this").slideToggle('slow');
+    }, function () {
+        $(".overlay4, this").slideToggle('slow');
+    });
+    $(".image5").hover(function () {
+        $(".overlay5, this").slideToggle('slow');
+    }, function () {
+        $(".overlay5, this").slideToggle('slow');
+    });
+    $(".image6").hover(function () {
+        $(".overlay6, this").slideToggle('slow');
+    }, function () {
+        $(".overlay6, this").slideToggle('slow');
+    });
+    $(".image7").hover(function () {
+        $(".overlay7, this").slideToggle('slow');
+    }, function () {
+        $(".overlay7, this").slideToggle('slow');
+    });
+    $(".image8").hover(function () {
+        $(".overlay8, this").slideToggle('slow');
+    }, function () {
+        $(".overlay8, this").slideToggle('slow');
+    });
 });
+
+// The feedback input form
+
+$(document).ready(function () {
+    $("#messageus").submit(function () {
+
+        var name = $("input#yourname").val();
+        var email = $("input#email").val();
+        var feedback = $("input#feedback").val();
+
+        alert("Hello " + name + ". we have received your feedback.Thank you for reaching out to us.");
+        $(this).get(0).reset();
+        event.preventDefault();
+    });
 });
-
-
 
