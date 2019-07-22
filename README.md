@@ -19,9 +19,9 @@ This is a web app for delani studio.It showcases what Delani studio is all about
 ## Known Bugs
 There is no database for collecting the feedback on the form section.The email chimp dosent work.
 ## Technologies Used
+* Javascript
 * HTML5
 * CSS
-* Javascript(jQuery)
 * Markdown Syntax
 ## Support and contact details
 For any questions,concerns or collaboration ,please feel free to contact me through my email adress:Ndundirokamau@gmail.com
