@@ -60,6 +60,13 @@ $(document).ready(function () {
     });
 });
 
+// DRY  the above code and make it shorter.
+
+var shorten = function (){
+    var image = [".image1",".image2",".image3",".image4",".image5",".image6",".image7",".image8"]
+    var overlay = [".overlay1",".overlay2",".overlay3",".overlay4",".overlay5",".overlay6",".overlay7",".overlay8"]
+}
+
 // The feedback input form
 
 $(document).ready(function () {
